@@ -1,0 +1,57 @@
+body{
+    background-image: url(image2.jpg);
+    padding: 0;
+    margin: 0;
+}
+.head2{
+    background-color: white;
+}
+.logo img{
+    max-width: 5%;
+    height: auto;
+}
+.head2 h1{
+    padding: 10px;
+    border-radius: 70px;
+    font-size: 70px;
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:linear-gradient(to bottom, red 0%, yellow 100%);
+}
+.head1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-62%,-50%);
+    height: 40px;
+}
+.head1 a{
+    border-radius: 50px;
+    background:linear-gradient(to bottom, green 0%, blue 50%,yellow 100%);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+.head1 a:hover{
+    color: black;
+}
+.menu ul li{
+    display: block;
+    padding: 15px;
+}
+.menu ul li a {
+    padding: 15px;
+    margin: 15px;
+    text-decoration: inherit;
+    color: white;
+    border-radius: 50px;
+    background:linear-gradient(to bottom, yellow 0%, red 100%);
+}
+.menu ul li a:hover{
+    color: black;
+}
+@media
